@@ -8,7 +8,7 @@ const gpt_call = (type) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null)
   const openai = new OpenAI({
-      apiKey: '//',
+      apiKey: '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',
       dangerouslyAllowBrowser: true
     });
 
